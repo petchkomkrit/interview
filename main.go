@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("Quiz 1 : %+v", quiz1.ValidatePassword("P@assw0rd"))
+	fmt.Printf("Quiz 1 : %+v", quiz1.IsValidPassword("P@assw0rd"))
 	fmt.Printf("Quiz 1 : %+v", quiz2.FirstNonRepeatingChar("Success"))
 }
